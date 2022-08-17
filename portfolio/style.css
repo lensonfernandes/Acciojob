@@ -52,6 +52,8 @@
     justify-content: space-between;
   } */
 
+
+  
 .home h1, .home p{
    color: whitesmoke;
    text-align: center;
@@ -74,6 +76,26 @@
    padding-right:200px;
    font-size: 150%;
 }
+
+@media only screen and (max-device-width: 480px) {
+   .home p {
+     
+      /* border: 1px dotted grey; */
+
+      padding-left: 20px ;
+      padding-right: 20px ;
+      font-size: 16px ;
+  }
+
+
+
+}
+@media only screen and (max-device-width: 480px) {
+   .home h1{
+      padding-top:90px;
+      font-size: 200%;
+     }
+   }   
 
 .about{
    background-color: #2B2B2B;
@@ -129,10 +151,14 @@ footer{
 .connect{
    height: 100vh;
    background-color: grey;
+   padding-left: 10%;
+   padding-right: 10%;
 }
 
 .proj{
    text-align: center;
+   padding-left: 10%;
+   padding-right: 10%;
 }
 
 .projects {
@@ -154,7 +180,7 @@ footer{
    justify-content: space-around;
    border-radius: 5px;
    background-color: #f2f2f2;
-   padding: 20px;
+   /* padding: 20px; */
 }
 
 
