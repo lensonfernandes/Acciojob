@@ -12,6 +12,10 @@
 
  }  */
  
+ body{
+   box-sizing: border-box;
+ }
+
  .container{
     display: flex;
     flex-wrap: wrap;
@@ -92,4 +96,90 @@ img{
    color: whitesmoke;
    line-height:200%;
 }
-  
+
+
+footer{
+   margin-top:20px;
+   background-color: grey;
+   height:25px;
+   text-align:center;
+}
+
+.edu, .work{
+   display: flex;
+   justify-content: center;
+   gap:40px;
+   align-items: center;
+   padding-left: 20px;
+}
+
+.edu >h2, .work>h2 {
+   width:30vw;
+   border-bottom: 2px solid rgba(24, 81, 202, 0.26);
+
+}
+
+.edu-right, .work-right{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap:20px;
+}
+
+.connect{
+   height: 100vh;
+   background-color: grey;
+}
+
+.proj{
+   text-align: center;
+}
+
+.projects {
+   display: flex;
+   justify-content: space-around;
+   
+}
+
+.card{
+   background-color: #838C95;
+   padding: 20px;
+   border-radius: 15px;
+   width:27vw;
+}
+
+.connect{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   padding: 20px;
+}
+
+
+input {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
+ 
+ input[type=submit] {
+   width: 100%;
+   background-color: #4CAF50;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ input[type=submit]:hover {
+   background-color: #45a049;
+ }
+ 
