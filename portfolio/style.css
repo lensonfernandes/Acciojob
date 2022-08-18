@@ -111,6 +111,8 @@
    flex-direction: column;
    width: 95%;
    padding:2%;
+
+
 }
 }
 
@@ -156,6 +158,18 @@ footer{
    gap:20px;
 }
 
+
+@media only screen and (max-device-width: 480px) {
+   .edu{
+      flex-direction: column;
+      justify-content: space-around;
+   }
+
+   .edu > h2{
+      padding-top: 10%;
+
+   }
+}
 .connect{
    height: 100vh;
    background-color: grey;
