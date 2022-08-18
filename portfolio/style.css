@@ -147,7 +147,7 @@ footer{
 
 .edu >h2, .work>h2 {
    width:30vw;
-   border-bottom: 2px solid rgba(24, 81, 202, 0.26);
+   
 
 }
 
@@ -160,7 +160,7 @@ footer{
 
 
 @media only screen and (max-device-width: 480px) {
-   .edu{
+   .edu, .work{
       flex-direction: column;
       justify-content: space-around;
    }
@@ -177,7 +177,7 @@ footer{
    padding-right: 10%;
 }
 
-.proj{
+section .proj{
    text-align: center;
    padding-left: 10%;
    padding-right: 10%;
@@ -196,6 +196,28 @@ footer{
    width:27vw;
 }
 
+@media only screen and (max-device-width: 480px) {
+  section .proj{
+      padding-left: 0;
+      padding-right: 0;
+   }
+   .projects{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap:20px;
+   }
+
+   .card{
+      width: 100vw;
+      padding:1%;
+      margin: 0;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+     
+   }
+}
 .connect{
    display: flex;
    flex-direction: column;
@@ -229,5 +251,14 @@ input {
  
  input[type=submit]:hover {
    background-color: #45a049;
+ }
+
+ @media only screen and (max-device-width: 480px) {
+
+   .connect{
+      margin-top: 50px;
+      height: 150vh;
+   }
+
  }
  
