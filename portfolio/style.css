@@ -169,6 +169,8 @@ footer{
       padding-top: 10%;
 
    }
+
+   
 }
 .connect{
    height: 100vh;
@@ -189,8 +191,12 @@ section .proj{
    
 }
 
+.proj h2{
+   padding-left: 20px;
+}
+
 .card{
-   background-color: #838C95;
+   /* background-color: #838C95; */
    padding: 20px;
    border-radius: 15px;
    width:27vw;
@@ -217,6 +223,11 @@ section .proj{
       justify-content: center;
      
    }
+
+   .proj h2{
+      padding-left: 10px;
+      text-align: center;
+   }
 }
 .connect{
    display: flex;
@@ -225,6 +236,7 @@ section .proj{
    border-radius: 5px;
    background-color: #f2f2f2;
    /* padding: 20px; */
+   height: 70vh;
 }
 
 
@@ -256,8 +268,12 @@ input {
  @media only screen and (max-device-width: 480px) {
 
    .connect{
-      margin-top: 50px;
-      height: 150vh;
+     
+      height: 125vh;
+   }
+
+   .connect h2, .connect p{
+      padding-top: 20px;
    }
 
  }
